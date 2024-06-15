@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: gigi;
+
+}
+body{
+    height: 100vh;
+    background:linear-gradient(135deg,#6b176b,lightblue) ;
+    font-weight: bold;
+}
+html{
+    font-size: 20px;
+}
+.wrap{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 61%;
+    left: 50%;
+    
+}
+.container{
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    box-shadow: 22px 13px 6px black;
+    
+}
+.btn{
+    background: white;
+    height:110px;
+    width: 110px;
+    margin: 28px 0px 0px 33px;
+    border: none;
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(25, 52, 107);
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px black;
+}
+.btn:hover{
+    background-color: rgb(79, 112, 112);
+    box-shadow: 10px 10px 10px rgb(209, 205, 205);
+    color: black;
+}
+#restart{
+    font-size: 20px;
+    /* margin-top: 20px; */
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(24, 20, 20);
+    color: white;
+    box-shadow: 9px 9px 8px black;
+    position: relative;
+    margin: 20px auto;
+    display: block;
+    cursor: pointer;
+}
+#restart:hover{
+    background-color: rgb(161, 145, 177);
+    color: black;
+    box-shadow: 9px 9px 8px white;
+}
+.result{
+    background:linear-gradient(135deg,#6b176b,lightblue) ;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 100px;
+}
+#new-game{
+    padding: 0.5em 1e;
+    background-color: rgb(24, 20, 20);
+    color: white;
+    font-size: 40px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 9px 9px 8px black;
+    cursor: pointer;
+}
+#new-game:hover{
+    background-color: rgb(161, 145, 177);
+    color: black;
+    box-shadow: 9px 9px 8px white;
+}
+#msg{
+    color: white;
+    text-align: center;
+    font-size: 1em;
+}
+.result.hide{
+    display: none;
+}
+.heading{
+    text-align: center;
+    margin: 9px 0px 0px 10px;
+    font-size: 35px;
+    color: #10173e;
+    text-shadow: 3px 9px 8px #383822;
+}
